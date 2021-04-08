@@ -1,0 +1,16 @@
+{
+  "name": "stripe-canada-add-tax-rates",
+  "version": "1.0.0",
+  "description": "Script to add GST/HST tax rates to Stripe",
+  "main": "index.js",
+  "repository": "https://github.com/backmeupplz/stripe-canada-add-tax-rates.git",
+  "author": "backmeupplz <backmeupplz@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "add-tax-rates": "node index.js"
+  },
+  "dependencies": {
+    "stripe": "^8.142.0"
+  }
+}
